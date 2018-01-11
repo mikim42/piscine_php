@@ -1,0 +1,101 @@
+body
+{
+	background-image: url("https://www.american-rails.com/images/ThomasCarriages.jpg");
+}
+.help
+{
+	display: block;
+	margin: auto;
+}
+ul, li
+{
+	list-style-type: none;
+	text-decoration: none;
+	margin: auto;
+	display: block;
+	font-size: 120%;
+	font-family: sans-serif;
+	padding: 0;
+}
+ul li
+{
+	vertical-align: top;
+
+}
+ul li a
+{
+	display: inline-block;
+}
+ul.master
+{
+	background-color: black;
+	overflow: hidden;
+	margin: auto;
+	display: flex;
+}
+ul.master >
+li.train > a
+{
+	display: inline-block;
+	color: CC9900;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+ul.master >
+li.train:hover
+{
+   background-color: 4D4D4D;
+}
+ul.master > 
+li.train > 
+ul.type-train, 
+ul.type-train > 
+li >
+ul.extra-type-train
+{
+	display: none;
+	position: absolute;
+	background-color: 4D4D4D;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+ul.master > 
+li.train:hover > 
+ul.type-train
+{ 
+	display: block;
+}
+ul.master > 
+li.train > 
+ul.type-train > 
+li,
+ul.type-train > 
+li
+{
+	display: block;
+	position: relative;
+}
+ul.master > 
+li.train > 
+ul.type-train > 
+li:hover,
+ul.type-train > 
+li a:hover
+{
+	background-color: black;
+}
+ul.master > 
+li.train > 
+ul.type-train > 
+li > a,
+ul.type-train > 
+li > a
+{
+	color: CC9900;
+	font-size: 50%;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
