@@ -11,7 +11,7 @@ while (1)
 	}
 	if (is_numeric($s))
 	{
-		if (($i = intval($s)) % 2 == 1)
+		if (($i = intval($s)) % 2 == 1 || $i % 2 == -1)
 			print "The number $i is odd\n";
 		else
 			print "The number $i is even\n";
