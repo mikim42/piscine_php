@@ -6,7 +6,7 @@ if ($argc == 2)
 	$s = "";
 	foreach ($arr as $elem)
 		$s .= $elem." ";
-	print($s);
+	print(trim($s, " ");
 	print("\n");
 }
 ?>
